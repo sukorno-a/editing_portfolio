@@ -9,27 +9,104 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
+
 <body>
+    <section>
     <div class="bg-video">
         <video autoplay loop muted>
             <source src="videos/bg-video.mp4" type="video/mp4">
         </video>
-        <div class="hero">
+        <div class="content">
             <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT ME</a></li>
-                </ul>
+                <div class="nav-links" id="navLinks">
+                    
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#port-id">PORTFOLIO</a></li>
+                            <li><a href="#about-id">ABOUT</a></li>
+                            <li><a href="#contact-id">CONTACT ME</a></li>
+                            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                </div>
+                
             </nav>
-            <div class="content">
-                <img src="" alt="">
-                <a href="#">BOOK NOW</a>
+            <div class="big-logo">
+                <img src="images/guavacado_big_logo.png" alt="">
+            </div>
+            <div class="front-text">
+                your vision. crafted to perfection.
             </div>
         </div>
+        <div class="spacer layer0"></div>
     </div>
-    
+    <div class="spacer layer0-5"></div>
+</section>
+
+
+<!-- -------JavaScript for Toggle Menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+ <!-- ---------------portfolio---------- -->
+    <section class="portfolio" id="port-id">
+        <h1>projects</h1>
+        <div class="row">
+            <div class="project">
+                <div class="project-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rGBSOhNf_cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>Sciento</h3>
+                <p>Trailer for a scientific communication start-up</p>
+            </div>
+            
+            <div class="project">
+                <div class="project-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BnvRc_9_5U4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>Imperial College London</h3>
+            <p>Presentational video for a 3D Laser Scanner project</p>
+            </div>
+
+            <div class="project">
+                <div class="project-video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TQvpKBtaPXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3>ZRK LDN</h3>
+            <p>Raw footage by iKonFilms, edited into a commercial ad</p>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <div class="spacer layer1"></div>
+<!-- ---------- about ---------- -->
+    <section class="about" id="about-id">
+        <h1>about</h1>
+        <p>Guavacado Films is an up-and-coming media production studio, specialising in filming and editing services. We provide multi-camera shoots with high-quality audio capture, 
+            whether a wedding or live music venue, and edit all content into any format required. This includes YouTube, Instagram, TikTok and more!
+         </p><br>
+        <p> We are based in West London, however we are able to travel anywhere within the UK. We use our own equipment
+            and edit using Davinci Resolve, but if you have your own equipment you would prefer us to use, that's absolutely fine!
+            We also have proficiency in Avid, Premiere Pro and After Effects if you would prefer a certain program to be used.
+
+        </p>
+    </section>
+
+    <div class="spacer layer2"></div>
+ <!-- ------------- contact ------------ -->
+    <section class="contact" id="contact-id">
+        <h1>contact us</h1>
+    </section>
 </body>
 </html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 960 101.40585"
+   width="960"
+   height="101.40585"
+   version="1.1"
+   sodipodi:docname="layered-waves-top.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs72" />
+  <sodipodi:namedview
+     id="namedview70"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.18"
+     inkscape:cx="354.66102"
+     inkscape:cy="71.186441"
+     inkscape:window-width="1414"
+     inkscape:window-height="730"
+     inkscape:window-x="0"
+     inkscape:window-y="62"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="visual" />
+  <path
+     d="m 0,0 32,5.8 c 32,5.9 96,17.5 160,22.5 64,5 128,3.4 192,0.5 64,-2.8 128,-6.8 192,-8.5 64,-1.6 128,-1 192,1.4 64,2.3 128,6.3 160,8.3 l 32,2 V 132 H 928 768 576 384 192 32 0 Z"
+     fill="#8eb28e"
+     id="path61"
+     style="opacity:0.8"
+     sodipodi:nodetypes="ccscccscccccccccc" />
+  <path
+     d="M 0,63 32,61.8 C 64,60.7 128,58.3 192,53.2 256,48 320,40 384,43.7 c 64,3.6 128,19 192,21.1 64,2.2 128,-8.8 192,-9.5 64,-0.6 128,9 160,13.9 l 32,4.8 v 58 H 928 768 576 384 192 32 0 Z"
+     fill="#9dcb9d"
+     id="path63"
+     style="opacity:0.8"
+     sodipodi:nodetypes="ccccccccccccccccc" />
+  <path
+     d="M 0,102 32,97.5 C 64,93 128,84 192,81.7 c 64,-2.4 128,2 192,1 64,-1 128,-7.4 192,-7 64,0.3 128,7.3 192,11.6 64,4.4 128,6 160,6.9 l 32,0.8 v 37 H 928 768 576 384 192 32 0 Z"
+     fill="#ace5ac"
+     id="path65"
+     style="opacity:1"
+     sodipodi:nodetypes="cscsccccccccccccc" />
+  <path
+     d="m 0,104 h 32 c 32,0 96,0 160,4.5 64,4.5 128,13.5 192,14.2 64,0.6 128,-7 192,-6.2 64,0.8 128,10.2 192,14.2 64,4 128,2.6 160,2 l 32,-0.7 v 0 H 928 768 576 384 192 32 0 Z"
+     fill="#bbffbb"
+     id="path67"
+     sodipodi:nodetypes="csscssccccccccccc" />
+</svg>
