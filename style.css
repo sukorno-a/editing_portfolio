@@ -62,7 +62,7 @@
 
 
 
-nav .fa-solid{
+.fa-solid.fa-bars {
     display: none;
 }
 
@@ -96,8 +96,8 @@ img {
     }
 
     .nav-links{
-        position: absolute;
-        background: #a8ffbc;
+        position: fixed;
+        background: #70c985;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -107,12 +107,24 @@ img {
         transition: 1s;
     }
 
-    nav .fa-solid fa-bars{
+    .fa-solid.fa-bars{
         display: block;
         color: white;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    nav .fa-solid.fa-xmark{
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 10px;
+        font-size: 30px;
     }
 
     .nav-links ul{
@@ -283,4 +295,77 @@ h3{
     text-align: center;
     justify-content: center;
     margin-top: 0;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+#progress-bar-container{
+    position: relative;
+    width: 100vw;
+    margin: auto;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#progress-bar-container ul{
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+}
+
+#progress-bar-container li:before{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px #aaa;
+    transition: all ease 0.3s;
+}
+
+#progress-bar-container li.active:before,
+#progress-bar-container li:hover:before{
+    background: rgb(243, 165, 193);
+}
+
+#progress-bar-container li{
+    list-style: none;
+    width: 20%;
+    text-align: center;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all ease 0.2s;
+    vertical-align: bottom;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+#progress-bar-container li .step-inner{
+    position: absolute;
+    width: 100%;
+    bottom: -30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#progress-bar-container li.active,
+#progress-bar-container li:hover{
+    color: rgb(243, 165, 193);
+}
+
+@media(max-width: 700px){
+    #progress-bar-container li .step-inner{
+        display: none;
+    }
 }

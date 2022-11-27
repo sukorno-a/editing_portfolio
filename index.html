@@ -19,6 +19,7 @@
             <source src="videos/bg-video.mp4" type="video/mp4">
         </video>
         <div class="content">
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             <nav>
                 <div class="nav-links" id="navLinks">
                     
@@ -27,9 +28,8 @@
                             <li><a href="#port-id">PORTFOLIO</a></li>
                             <li><a href="#about-id">ABOUT</a></li>
                             <li><a href="#contact-id">CONTACT ME</a></li>
-                            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                            <li><i class="fa-solid fa-xmark" onclick="hideMenu()"></i></li>
                         </ul>
-                        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
                 </div>
                 
             </nav>
@@ -104,12 +104,76 @@
             We also have proficiency in Avid, Premiere Pro and After Effects if you would prefer a certain program to be used.
 
         </p>
+        <p>We also offer personal training services. ;)</p>
     </section>
 
     <div class="spacer layer2"></div>
  <!-- ------------- contact ------------ -->
     <section class="contact" id="contact-id">
         <h1>contact us</h1>
+        <p>Drop us an email at <a href="mailto:enquiries@guavacadofilms.com">enquiries@guavacadofilms.com</a> to bring your vision to life! 
+            <br>Pricing will be evaluated by gauging the scope of your project and your specific needs. 
+            Include as much detail as possible in your enquiry - this will help ensure we can tailor exactly
+            to your requirements, and get started turning your vision into reality sooner! This is the service you can expect
+            when you choose to work with us:
+        </p>
+
+        <div id="progress-bar-container">
+            <ul>
+                <li class="step step01 active">
+                    <div class="step-inner">conceptualisation</div>
+                </li>
+
+                <li class="step step02">
+                    <div class="step-inner">production</div>
+                </li>
+
+                <li class="step step03">
+                    <div class="step-inner">post-production</div>
+                </li>
+
+                <li class="step step04">
+                    <div class="step-inner">finalisation</div>
+                </li>
+
+            </ul>
+            <div id="line">
+                <div id="line-process"></div>
+            </div>
+        </div>
+
+        <div id="progress-content-section">
+            <div class="section-content concept active">
+                <h2>conceptualisation</h2>
+                <p>You give us the brief, we give you the plan of action. We'll outline a rough proposal involving equipment, logistics,
+                    locations and more. Whether a simple editing job or a full-scale documentary shoot, don't be afraid to delve
+                    into the details!
+                </p>
+            </div>
+            <div class="section-content production">
+                <h2>production</h2>
+                <p>
+                    We begin the main event! From voice-overs to b-roll, and anything inbetween,
+                    we capture every moment you need to efficiently communicate your story.
+                </p>
+            </div>
+            <div class="section-content post">
+                <h2>Post-Production</h2>
+                <p>
+                This is when your piece will be polished up in our state-of-the-art editing suite. This includes colour grading, 
+                transitions, music, VFX and more. 
+                </p>
+            </div>
+            <div class="section-content final">
+                <h2>Finalisation</h2>
+                <p>
+                Once a first draft is prepared, we send it over. This is your time to give us feedback and fine-tune the
+                content to exactly what you have in mind. After implementing any changes, your video is ready to share with the world!
+                </p>
+            </div>
+        </div>
+
+
     </section>
 </body>
 </html>
