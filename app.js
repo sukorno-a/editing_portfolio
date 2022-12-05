@@ -1,11 +1,3 @@
-const menu = document.querySelector("#mobile-menu")
-const menuLinks = document.querySelector(".navbar__menu")
-
-menu.addEventListener("click", function(){
-    menu.classList.toggle("is-active");
-    menuLinks.classList.toggle("active");
-})
-
 const one = document.querySelector("#one");
 const two = document.querySelector("#two");
 const three = document.querySelector("#three");
