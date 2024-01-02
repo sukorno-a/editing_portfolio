@@ -5,6 +5,30 @@
     font-family: 'Reem Kufi Ink', sans-serif;
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+body {
+    overflow: overlay;
+    height: 100%;
+    overscroll-behavior: none;
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90);
+  }
+  
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
 .content {
     width: 100%;
     height: 100vh;
@@ -211,7 +235,7 @@ h1{
     flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 0;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding: 10px 10px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -285,9 +309,8 @@ h3{
     width: 100vw;
     text-align: center;
     justify-content: center;
-    margin-top: -25%;
+    margin-top: -35%;
     padding-top: 0;
-    padding-bottom: 10%;
     padding-inline: 20px;
 }
 
@@ -300,7 +323,8 @@ h3{
     width: 100vw;
     text-align: center;
     justify-content: center;
-    margin-top: 0;
+    margin-top: -5%;
+    padding-bottom: 10px;
 }
 
 .contact p {
@@ -315,7 +339,7 @@ h3{
 
 
 
-
+/* 
 .container {
     margin: auto;
     margin-top: 20px;
@@ -412,6 +436,13 @@ h3{
 .contentt.fourth {
     display: none;
 }
+
+ */
+
+
+
+
+
 
 .contact a{
     color: rgb(185, 185, 185);
